@@ -1,0 +1,253 @@
+/*I do really hate CSS, am a man I don't do makeup, but anyways here we goo*/
+/*adding fonts*/
+@font-face {
+    font-family: 'header';
+    src: url('../fonts/header.otf') format('opentype');
+}
+@font-face {
+    font-family: 'normal';
+    src: url('../fonts/normal.ttf') format('truetype');
+}
+/*end*/
+/*CSS for the body*/
+body {
+    background-color: #ffffff;
+    height: 100vh;
+    font-family: 'normal';
+}
+/*end*/
+/*css for the container*/
+.container, containerIndex {
+ overflow: hidden;
+}
+/*end*/
+/*css for the a tag*/
+a {
+    color: inherit; 
+    text-decoration: none; 
+}
+/*end*/
+/*css for the header*/
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 55px;
+    justify-content: space-between;
+    overflow: visible;
+}
+
+.headerMain {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    overflow: visible;
+    margin-bottom: 7px;
+}
+
+#lock {
+    color: rgb(34, 44, 184);
+    font-family: 'header';
+}
+
+#bit {
+    color: rgba(255, 0, 0, 0.979);
+    font-family: 'header';
+}
+
+.alert {
+    background-color: rgba(255, 0, 0, 0.979);
+    color: white;
+    padding: 4px;
+    height: fit-content;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.logo {
+    width: 95px;
+    height: 94px;
+}
+/*end*/
+/*css for contents*/
+.contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.postColumns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.postColumns {
+    margin-bottom: 13px;
+}
+/*end*/
+/*css for posts*/
+.poster {
+    border-top: 2px solid #28a745;
+    border-radius: 4px;
+    height: 220px;
+}
+
+.posterRed {
+    border-top: 2px solid #dc3545;
+    border-radius: 4px;
+}
+.posterLink {
+    width: 24%;
+    height: 248px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 7px 70px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    height: 242px;
+    position: relative;
+    border: #dddddd 2px solid;
+    justify-content: space-between;
+}
+
+.updated {
+    background: red;
+    padding: 1px 10px;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    left: -10px;
+    top: 5px;
+    z-index: 1;
+    rotate: -30deg;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+.postHeader {
+    padding: 8px;
+    background: #e9f9f1;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.postHeaderRed {
+    padding: 8px;
+    background: #ffeded;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.postTitle {
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.03em;
+    color: #222222;
+    overflow: hidden;
+    text-align: center;
+}
+
+.onORoff {
+    font-family: 'normal';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    color: #08b966;
+    background: #ffffff;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    border: #08b966 1px solid;
+    margin: 2px auto;
+    width: 100%;
+}
+
+.onORoffRed {
+    font-family: 'normal';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    background: #f71b3a;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    border: #f71b3a 1px solid;
+    margin: 2px auto;
+    width: 100%;
+}
+
+.postDescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    font-size: 14px;
+    color: #333160;
+    margin-bottom: 40px;
+    overflow: hidden;
+    white-space: normal;
+    height: 80px;
+    font-size: 13px;
+}
+
+.postDetails {
+    display: flex;
+    flex-direction: row;
+    padding: 6px 10px;
+    height: 23px;
+    justify-content: space-between;
+    font-size: 11px;
+    align-items: center;
+}
+
+.update, .clock, .p{
+    display: flex;
+    flex-direction: row;
+}
+
+.p {
+    justify-content: space-between;
+}
+
+.fix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postDescriptionImageBlog {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-weight: normal;
+    font-size: 14px;
+    color: #333160;
+    margin-bottom: 40px;
+    overflow: hidden;
+    white-space: normal;
+    height: fit-content;
+    font-size: 13px;
+}
+
+.imageDesc {
+    width: auto;
+    height: fit-content;
+    overflow: hidden;
+    margin-right: 4px;
+}
+.imageDesc img{
+    width: 100%;
+   
+}
+/*end*/

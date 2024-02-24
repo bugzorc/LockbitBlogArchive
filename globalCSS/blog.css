@@ -1,0 +1,81 @@
+/*Ahh shit! Here we go again.*/
+a {
+    color: blue !important; 
+    text-decoration: underline !important; 
+}
+.blogFooter {
+    height: 267px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blogMargin {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogMargin div{
+    margin-bottom: 90px;
+}
+
+.blogContent {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px  7px 7px rgba(0, 0, 0, 0.04);
+    border-top: 2px solid #1313133f;
+    
+}
+
+.blogPicture, .yapping {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0 !important;
+    padding: 50px;
+}
+
+.blogPicture {
+    width: 80%;
+}
+
+.yapping {
+    overflow-wrap: break-word;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.blogUpdate {
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+}
+
+.blogUpdate div{
+   margin-right: 95px;
+}
+
+.fix {
+    width: 25%;
+}
+
+li {
+    padding-left: 20px;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px !important;
+}
+
+.display img{
+    margin-right: 5px;
+}
+
+.displaypictures {
+    display: flex;
+    flex-direction: column;
+}
